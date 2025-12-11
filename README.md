@@ -593,21 +593,6 @@
             {name: "Secret Hitler", price: 350, category: "cartas"},
             {name: "Sequence", price: 260, category: "tablero"},
             {name: "Sequence for Kids", price: 230, category: "tablero"},
-            {name: "Spot it 123", price: 99, category: "spot it"},
-            {name: "Spot it ABC", price: 99, category: "spot it"},
-            {name: "Spot it Bon Esponja", price: 99, category: "spot it"},
-            {name: "Spot it Cars", price: 99, category: "spot it"},
-            {name: "Spot it DC", price: 99, category: "spot it"},
-            {name: "Spot it Disney", price: 99, category: "spot it"},
-            {name: "Spot it Disney Princesas", price: 99, category: "spot it"},
-            {name: "Spot it Halloween", price: 99, category: "spot it"},
-            {name: "Spot it Harry Potter", price: 99, category: "spot it"},
-            {name: "Spot it Holiday", price: 99, category: "spot it"},
-            {name: "Spot it Marvel", price: 99, category: "spot it"},
-            {name: "Spot it Minions", price: 99, category: "spot it"},
-            {name: "Spot it Pixar", price: 99, category: "spot it"},
-            {name: "Spot it Pokemon", price: 99, category: "spot it"},
-            {name: "Spot it Star wars", price: 99, category: "spot it"}
             {name: "Splendor", price: 350, category: "estrategia"},
             {name: "Splendor Marvel", price: 390, category: "estrategia"},
             {name: "Sushi GO Party", price: 320, category: "cartas"},
@@ -664,7 +649,6 @@
             const names = {
                 'cartas': '🎴 Cartas',
                 'tablero': '🎲 Tablero',
-                spot it: '🎴 SPOT IT',
                 'estrategia': '🧠 Estrategia'
                 
             };

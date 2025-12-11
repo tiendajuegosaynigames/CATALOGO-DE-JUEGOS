@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
@@ -543,13 +542,13 @@
     </div>
 
     <footer>
-        <p>&copy; 2024 Ayni Games - Tienda de Juegos de Mesa | Todos los derechos reservados</p>
-        <p>📧 contacto@aynigames.com | 📞 +591 78933669</p>
+        <p>&copy; 2025 Ayni Games - Tienda de Juegos de Mesa | Todos los derechos reservados</p>
+        <p>📧 juegosdemesa.aynigames@gmail.com | 📞 +591 78933669</p>
     </footer>
 
     <script>
         // CONFIGURACIÓN - CAMBIA ESTE NÚMERO CON TU WHATSAPP
-        const WHATSAPP_NUMBER = "59112345678"; // Pon tu número aquí (formato: código país + número sin +)
+        const WHATSAPP_NUMBER = "59178933669"; // Pon tu número aquí (formato: código país + número sin +)
 
         const products = [
             {name: "7 Wonders Cartas", price: 335, category: "cartas"},

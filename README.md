@@ -1,7 +1,5 @@
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    
     <title>Ayni Games - Tienda de Juegos de Mesa</title>
     <style>
         * {

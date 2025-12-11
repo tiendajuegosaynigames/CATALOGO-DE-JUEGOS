@@ -500,7 +500,7 @@
         <nav>
             <div class="logo-container">
                 <!-- AQUÍ PUEDES PONER TU LOGO: Reemplaza el src="" con la URL de tu logo -->
-                <img src="" alt="Ayni Games Logo" class="logo-img" style="display:none;">
+                <img https://imgur.com/a/8TdOlcd="" alt="Ayni Games Logo" class="logo-img" style="display:none;">
                 <div class="logo-text">
                     <div class="logo-title">AYNI GAMES</div>
                     <div class="logo-subtitle">Juegos de Mesa</div>
@@ -775,7 +775,7 @@
             });
             
             message += `\n💰 *TOTAL: Bs ${total}*\n\n`;
-            message += '¡Gracias por tu pedido! 🙌';
+            message += '¡Pedido finalizado! 🙌';
 
             const whatsappUrl = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(message)}`;
             window.open(whatsappUrl, '_blank');

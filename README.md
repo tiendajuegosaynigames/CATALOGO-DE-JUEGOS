@@ -501,9 +501,6 @@
             <div class="logo-container">
                 <!-- AQUÍ PUEDES PONER TU LOGO: Reemplaza el src="" con la URL de tu logo -->
     <img src="https://i.postimg.cc/661QNyqp/IMG-20251209-001629.png" alt="Ayni Games Logo" class="logo-img">
-                <div class="logo-text">
-                    <div class="logo-title">AYNI GAMES</div>
-                    <div class="logo-subtitle">Juegos de Mesa</div>
                 </div>
             </div>
             <div class="search-bar">

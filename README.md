@@ -544,7 +544,7 @@
             {name: "Azul", price: 380, category: "tablero", image:"https://i.postimg.cc/Rhghbw4q/image.png " },
             {name: "Azul Summer Pavillion", price: 410, category: "tablero", image:" https://i.postimg.cc/MKrSTqDr/image.png" },
             {name: "Bears vs Babies", price: 240, category: "cartas", image:" https://i.postimg.cc/VsDRnTn9/image.png " },
-            {name: "Bears vs Babies EXP", price: 95, category: "cartas", image: "https://i.postimg.cc/nz7zKMdr/image.png" },
+            {name: "Bears vs Babies EXP", price: 95, category: "cartas", image: "https://i.postimg.cc/VkL2XT7j/image.png" },
             {name: "Beat That", price: 340, category: "tablero", image:" " },
             {name: "Breaking Kittens", price: 190, category: "cartas", image:" " },
             {name: "Carcassone", price: 360, category: "tablero", image:" " },

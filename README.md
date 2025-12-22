@@ -11,11 +11,6 @@
             box-sizing: border-box;
         }
 
-        /* Ocultar el encabezado azul de GitHub Pages */
-        body > *:not(header):not(section):not(footer):not(script):first-child {
-            display: none !important;
-        }
-
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             background: linear-gradient(135deg, #6b2c3e 0%, #4a1f2c 100%);
@@ -200,15 +195,6 @@
             width: 100%;
             height: 100%;
             object-fit: cover;
-            display: none;
-        }
-
-        .product-img.has-image img {
-            display: block;
-        }
-
-        .product-img.has-image::before {
-            display: none;
         }
 
         .upload-hint {
@@ -635,32 +621,44 @@
             'linear-gradient(135deg, #4a1f2c 0%, #8b3a4f 100%)'
         ];
 
-        function renderProducts(filteredProducts = products) {
+        function renderProducts(filteredProducts) {
+            if (!filteredProducts) filteredProducts = products;
+            
             const container = document.getElementById('productsContainer');
+            
+            if (!container) {
+                console.error('No se encontró el contenedor de productos');
+                return;
+            }
             
             if (filteredProducts.length === 0) {
                 container.innerHTML = '<div class="no-results">No se encontraron juegos 😢</div>';
                 return;
             }
 
-            container.innerHTML = filteredProducts.map((product, index) => `
-                <div class="product-card">
-                    <div class="product-img ${product.image ? 'has-image' : ''}" style="background: ${gradients[index % gradients.length]}">
-                        ${product.image ? 
-                            `<img src="${product.image}" alt="${product.name}" style="display: block;">` : 
-                            `${product.name}<div class="upload-hint">📷 Imagen próximamente</div>`
-                        }
-                    </div>
-                    <div class="product-info">
-                        <h3 class="product-title">${product.name}</h3>
-                        <span class="product-category">${getCategoryName(product.category)}</span>
-                        <div class="product-footer">
-                            <span class="price">Bs ${product.price}</span>
-                            <button class="buy-btn" onclick="addToCart('${product.name.replace(/'/g, "\\'")}', ${product.price})">Comprar</button>
+            container.innerHTML = filteredProducts.map((product, index) => {
+                const gradient = gradients[index % gradients.length];
+                const hasImage = product.image ? true : false;
+                
+                return `
+                    <div class="product-card">
+                        <div class="product-img" style="background: ${gradient}">
+                            ${hasImage ? 
+                                `<img src="${product.image}" alt="${product.name}">` : 
+                                `<span>${product.name}</span><div class="upload-hint">📷 Próximamente</div>`
+                            }
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-title">${product.name}</h3>
+                            <span class="product-category">${getCategoryName(product.category)}</span>
+                            <div class="product-footer">
+                                <span class="price">Bs ${product.price}</span>
+                                <button class="buy-btn" onclick="addToCart('${product.name.replace(/'/g, "\\'")}', ${product.price})">Comprar</button>
+                            </div>
                         </div>
                     </div>
-                </div>
-            `).join('');
+                `;
+            }).join('');
         }
 
         function getCategoryName(category) {
@@ -804,7 +802,14 @@
             }
         }
 
-        renderProducts();
+        // Inicializar productos cuando el DOM esté listo
+        if (document.readyState === 'loading') {
+            document.addEventListener('DOMContentLoaded', function() {
+                renderProducts(products);
+            });
+        } else {
+            renderProducts(products);
+        }
     </script>
 </body>
 </html>

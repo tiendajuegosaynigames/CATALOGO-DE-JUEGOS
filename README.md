@@ -538,7 +538,7 @@
 
         const products = [
             {name: "7 Wonders ", price: 335, category: "estrategia", image:"https://i.postimg.cc/J4Snrn0w/7-wonders.png" },
-            {name: "7 Wonders Duel", price: 330, category: "estrategia", image:"" },
+            {name: "7 Wonders Duel", price: 330, category: "estrategia", image:"https://i.postimg.cc/KYPzhPQV/image.png" },
             {name: "7 Wonders 2da edicion limitada", price: 690, category: "estrategia", image:"https://i.postimg.cc/BQQ6FPpM/image.png " },
             {name: "Avalon", price: 230, category: "cartas", image:" " },
             {name: "Azul", price: 380, category: "tablero", image:" " },

@@ -550,7 +550,7 @@
             {name: "Carcassone", price: 360, category: "tablero", image:" https://i.postimg.cc/3J5GYm6H/image.png" },
             {name: "Catan", price: 315, category: "estrategia", image:"https://i.postimg.cc/yNvhNxRn/image.png " },
             {name: "Catan Extension", price: 210, category: "estrategia", image:"https://i.postimg.cc/QdP9Y7cn/image.png " },
-            {name: "Catan Navegantes", price: 380, category: "estrategia", image:" " },
+            {name: "Catan Navegantes", price: 380, category: "estrategia", image:" https://i.postimg.cc/sX8GqhFj/image.png" },
             {name: "Catan Navegantes Ext", price: 290, category: "estrategia", image:" " },
             {name: "Cities of Splendor", price: 360, category: "estrategia", image:" " },
             {name: "Clank", price: 500, category: "tablero", image:" " },

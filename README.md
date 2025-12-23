@@ -554,7 +554,7 @@
             {name: "Catan Navegantes Ext", price: 290, category: "estrategia", image:" https://i.postimg.cc/Xqmmz3kV/image.png" },
             {name: "Cities of Splendor", price: 360, category: "estrategia", image:"https://i.postimg.cc/K8Zwp9n5/image.png " },
             {name: "Clank", price: 500, category: "tablero", image:"https://i.postimg.cc/pXynQvSn/image.png " },
-            {name: "Código Secreto", price: 280, category: "cartas", image:" " },
+            {name: "Código Secreto", price: 280, category: "cartas", image:" https://i.postimg.cc/L4PsmsGw/image.png" },
             {name: "Coup", price: 160, category: "cartas", image:" " },
             {name: "Dixit", price: 340, category: "cartas", image:" " },
             {name: "Dixit Quest EXP", price: 210, category: "cartas", image:" " },

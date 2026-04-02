@@ -421,7 +421,7 @@ initSlider();
 
 <!-- ========== SECCIÓN DE SUGERENCIAS PARA IMÁGENES PROFESIONALES ========== -->
 <details style="max-width:1360px; margin:2rem auto; padding:1rem 2rem; background:#fff3e0; border-radius:16px; border-left:6px solid var(--w); font-family:'Inter',sans-serif;">
-  <summary style="font-weight:800; font-size:1rem; cursor:pointer; color:var(--w);">📸 Recomendaciones profesionales para las imágenes del catálogo</summary>
+  <summary style="font-weight:800; font-size:1rem; cursor:pointer; color:var(--w);">Únete al grupo de Ayni Games</summary>
   <div style="margin-top:1rem; font-size:0.9rem; line-height:1.6; color:#2d2d2d;">
     <p><strong>✅ Las imágenes actuales (postimg.cc + Unsplash para Spot It) son correctas para pruebas y prototipos.</strong> Sin embargo, para un catálogo profesional definitivo te sugiero:</p>
     <ul style="margin-left:1.5rem; margin-top:0.5rem;">

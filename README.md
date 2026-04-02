@@ -222,7 +222,7 @@ footer{background:#0e060a;color:rgba(255,255,255,.65);padding:3rem 2rem 1.5rem}
 </head>
 <body>
 
-<div class="topbar">🚚 <strong>Envíos en Bolivia</strong> — Consultá por WhatsApp · Todos los precios en Bs</div>
+<div class="topbar">🚚 <strong>Entregas en La Paz y envíos a todo Bolivia</strong> — Consultá por WhatsApp · Todos los precios en Bs</div>
 
 <header id="hdr">
   <div class="hdr">
@@ -238,7 +238,7 @@ footer{background:#0e060a;color:rgba(255,255,255,.65);padding:3rem 2rem 1.5rem}
 
 <div class="slider" id="slider">
   <div class="slides" id="slides">
-    <div class="slide active"><div class="slide-bg" style="background-image:url('https://images.unsplash.com/photo-1610890716171-6b1bb98ffd09?w=1600&h=900&fit=crop')"></div><div class="slide-overlay"></div><div class="slide-content"><div class="slide-tag">⭐ Estrategia</div><h2>Domina el tablero,<br><em>conquista Bolivia</em></h2><p>Los mejores juegos de estrategia para mentes brillantes.</p><div class="slide-btns"><button class="btn-gold" onclick="filt('estrategia',document.getElementById('ch-e'));document.getElementById('catalogo').scrollIntoView({behavior:'smooth'})">Ver Estrategia →</button><button class="btn-ghost" onclick="sendWAConsulta()">💬 Asesorarme</button></div></div></div>
+    <div class="slide active"><div class="slide-bg" style="background-image:url('https://images.unsplash.com/photo-1610890716171-6b1bb98ffd09?w=1600&h=900&fit=crop')"></div><div class="slide-overlay"></div><div class="slide-content"><div class="slide-tag">⭐ Estrategia</div><h2>Domina el tablero,<br><em>conquista Bolivia</em></h2><p>Desafíos de estrategia para mentes brillantes.</p><div class="slide-btns"><button class="btn-gold" onclick="filt('estrategia',document.getElementById('ch-e'));document.getElementById('catalogo').scrollIntoView({behavior:'smooth'})">Ver Estrategia →</button><button class="btn-ghost" onclick="sendWAConsulta()">💬 Asesorarme</button></div></div></div>
     <div class="slide"><div class="slide-bg" style="background-image:url('https://images.unsplash.com/photo-1611996575748-6f0be1e7b5c9?w=1600&h=900&fit=crop')"></div><div class="slide-overlay"></div><div class="slide-content"><div class="slide-tag">🃏 Cartas</div><h2>La diversión cabe<br>en <em>tus manos</em></h2><p>Exploding Kittens, Dixit, Secret Hitler y más.</p><div class="slide-btns"><button class="btn-gold" onclick="filt('cartas',document.getElementById('ch-c'));document.getElementById('catalogo').scrollIntoView({behavior:'smooth'})">Ver Cartas →</button><button class="btn-ghost" onclick="sendWAConsulta()">💬 Consultar</button></div></div></div>
     <div class="slide"><div class="slide-bg" style="background-image:url('https://images.unsplash.com/photo-1534422298391-e4f8c172dddb?w=1600&h=900&fit=crop')"></div><div class="slide-overlay"></div><div class="slide-content"><div class="slide-tag">🗺️ Tablero</div><h2>Grandes aventuras<br><em>sobre la mesa</em></h2><p>Azul, Carcassonne, Ticket to Ride y más.</p><div class="slide-btns"><button class="btn-gold" onclick="filt('tablero',document.getElementById('ch-b'));document.getElementById('catalogo').scrollIntoView({behavior:'smooth'})">Ver Tablero →</button><button class="btn-ghost" onclick="sendWAConsulta()">💬 Consultar</button></div></div></div>
     <div class="slide"><div class="slide-bg" style="background-image:url('https://images.unsplash.com/photo-1586899028174-e709b1e3f9f8?w=1600&h=900&fit=crop')"></div><div class="slide-overlay"></div><div class="slide-content"><div class="slide-tag">🎲 Aynigames Bolivia</div><h2>La mejor tienda<br>de juegos de mesa en <em>Bolivia</em></h2><p>Más de 70 juegos disponibles. Asesoramiento personalizado.</p><div class="slide-btns"><button class="btn-gold" onclick="document.getElementById('catalogo').scrollIntoView({behavior:'smooth'})">Ver Catálogo →</button><button class="btn-ghost" onclick="sendWAConsulta()">💬 WhatsApp</button></div></div></div>
@@ -250,10 +250,10 @@ footer{background:#0e060a;color:rgba(255,255,255,.65);padding:3rem 2rem 1.5rem}
 
 <div class="trust">
   <div class="trust-in">
-    <div class="ti"><div class="ti-ico"><svg viewBox="0 0 24 24"><rect x="1" y="3" width="15" height="13"/><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg></div><div><strong>Envíos en Bolivia</strong><span>A consultar por zona</span></div></div>
+    <div class="ti"><div class="ti-ico"><svg viewBox="0 0 24 24"><rect x="1" y="3" width="15" height="13"/><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg></div><div><strong>Envíos a todo el pais</strong><span>A consultar por zona</span></div></div>
     <div class="ti"><div class="ti-ico"><svg viewBox="0 0 24 24"><rect x="1" y="4" width="22" height="16" rx="2" ry="2"/><line x1="1" y1="10" x2="23" y2="10"/></svg></div><div><strong>Formas de pago</strong><span>Efectivo · Transferencia</span></div></div>
     <div class="ti"><div class="ti-ico"><svg viewBox="0 0 24 24"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg></div><div><strong>Asesoramiento</strong><span>Te ayudamos a elegir</span></div></div>
-    <div class="ti"><div class="ti-ico"><svg viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div><div><strong>Juegos originales</strong><span>100% auténticos</span></div></div>
+    <div class="ti"><div class="ti-ico"><svg viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div><div><strong>JEdiciones Premium | Acabados y materiales de lujo</strong><span>100% auténticos</span></div></div>
   </div>
 </div>
 
@@ -288,7 +288,7 @@ footer{background:#0e060a;color:rgba(255,255,255,.65);padding:3rem 2rem 1.5rem}
     <div class="f-col"><h4>Catálogo</h4><ul><li><a href="#" onclick="filt('todos',document.getElementById('ch-t'))">Todos</a></li><li><a href="#" onclick="filt('cartas',document.getElementById('ch-c'))">Cartas</a></li><li><a href="#" onclick="filt('tablero',document.getElementById('ch-b'))">Tablero</a></li><li><a href="#" onclick="filt('estrategia',document.getElementById('ch-e'))">Estrategia</a></li></ul></div>
     <div class="f-col"><h4>Info</h4><ul><li><a href="#">Cómo elegir un juego</a></li><li><a href="#">Formas de pago</a></li><li><a href="#">Política de envíos</a></li><li><a href="#" onclick="sendWAConsulta()">Contacto</a></li></ul></div>
   </div>
-  <div class="foot-bot"><span>© 2025 Aynigames — Todos los derechos reservados</span><span>Hecho con ❤️ en Bolivia</span></div>
+  <div class="foot-bot"><span>© 2025 Aynigames — Todos los derechos reservados</span><span>asión por los juegos de mesa desde Bolivia con ❤️</span></div>
 </footer>
 
 <!-- DRAWER CARRITO, MODAL PRODUCTO, TOASTS -->

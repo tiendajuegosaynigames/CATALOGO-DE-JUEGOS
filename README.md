@@ -253,7 +253,7 @@ footer{background:#0e060a;color:rgba(255,255,255,.65);padding:3rem 2rem 1.5rem}
     <div class="ti"><div class="ti-ico"><svg viewBox="0 0 24 24"><rect x="1" y="3" width="15" height="13"/><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg></div><div><strong>Envíos a todo el pais</strong><span>A consultar por zona</span></div></div>
     <div class="ti"><div class="ti-ico"><svg viewBox="0 0 24 24"><rect x="1" y="4" width="22" height="16" rx="2" ry="2"/><line x1="1" y1="10" x2="23" y2="10"/></svg></div><div><strong>Formas de pago</strong><span>Efectivo · Transferencia</span></div></div>
     <div class="ti"><div class="ti-ico"><svg viewBox="0 0 24 24"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg></div><div><strong>Asesoramiento</strong><span>Te ayudamos a elegir</span></div></div>
-    <div class="ti"><div class="ti-ico"><svg viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div><div><strong>Ediciones de importación</strong><span>100% auténticos</span></div></div>
+    <div class="ti"><div class="ti-ico"><svg viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div><div><strong>Ediciones de importación</strong><span>Calidad Internacional</span></div></div>
   </div>
 </div>
 
@@ -403,7 +403,7 @@ function renderD() { const el = document.getElementById('di'), ft = document.get
 function openCart() { renderD(); document.getElementById('ovl').classList.add('on'); document.body.style.overflow = 'hidden'; }
 function closeCart() { document.getElementById('ovl').classList.remove('on'); document.body.style.overflow = ''; }
 function closeOnBg(e) { if (e.target === document.getElementById('ovl')) closeCart(); }
-function sendWA() { const items = Object.values(cart); if (!items.length) return; const fin = discountedTotal(), sub = total(); const cpnLine = activeCoupon ? `\n\n🏷️ *Cupón ${activeCoupon.code}: -${activeCoupon.pct}%*\nDescuento: -Bs ${sub - fin}` : ''; const msg = `¡Hola Aynigames! 🎲 Quisiera hacer este pedido:\n\n${items.map(i => `• ${i.n} x${i.qty} — Bs ${i.price * i.qty}`).join('\n')}${cpnLine}\n\n💰 *TOTAL: Bs ${fin}*\n\n¿Pueden confirmar disponibilidad?`; window.open(`https://wa.me/59170000000?text=${encodeURIComponent(msg)}`, '_blank'); }
+function sendWA() { const items = Object.values(cart); if (!items.length) return; const fin = discountedTotal(), sub = total(); const cpnLine = activeCoupon ? `\n\n🏷️ *Cupón ${activeCoupon.code}: -${activeCoupon.pct}%*\nDescuento: -Bs ${sub - fin}` : ''; const msg = `¡Hola Aynigames! 🎲 Quisiera hacer este pedido:\n\n${items.map(i => `• ${i.n} x${i.qty} — Bs ${i.price * i.qty}`).join('\n')}${cpnLine}\n\n💰 *TOTAL: Bs ${fin}*\n\n¿Pueden confirmar disponibilidad?`; window.open(`https://wa.me/59178933669?text=${encodeURIComponent(msg)}`, '_blank'); }
 function sendWAConsulta() { window.open(`https://wa.me/59170000000?text=${encodeURIComponent('¡Hola Aynigames! Quisiera consultar sobre sus juegos de mesa 🎲')}`, '_blank'); }
 function toast(msg) { const w = document.getElementById('tw'), el = document.createElement('div'); el.className = 'toast'; el.innerHTML = `<svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>${msg}`; w.appendChild(el); setTimeout(() => { el.classList.add('out'); setTimeout(() => el.remove(), 260); }, 2500); }
 const COUPONS = { AYNIGAMES10: 10, BIENVENIDO15: 15, JUEGOS5: 5 };

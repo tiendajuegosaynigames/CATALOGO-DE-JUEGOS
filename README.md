@@ -418,22 +418,13 @@ loadCartFromStorage();
 render();
 initSlider();
 </script>
-
-<!-- ========== SECCIÓN DE SUGERENCIAS PARA IMÁGENES PROFESIONALES ========== -->
-<details style="max-width:1360px; margin:2rem auto; padding:1rem 2rem; background:#fff3e0; border-radius:16px; border-left:6px solid var(--w); font-family:'Inter',sans-serif;">
-  <summary style="font-weight:800; font-size:1rem; cursor:pointer; color:var(--w);">Únete al grupo de Ayni Games</summary>
-  <div style="margin-top:1rem; font-size:0.9rem; line-height:1.6; color:#2d2d2d;">
-    <p><strong>✅ Las imágenes actuales (postimg.cc + Unsplash para Spot It) son correctas para pruebas y prototipos.</strong> Sin embargo, para un catálogo profesional definitivo te sugiero:</p>
-    <ul style="margin-left:1.5rem; margin-top:0.5rem;">
-      <li><strong>Usar fotos reales de tus productos</strong> – nada genera más confianza que ver el juego físico (caja, componentes).</li>
-      <li><strong>Fondo neutro o estudio casero</strong> – coloca el juego sobre una superficie blanca o madera clara, con luz natural difusa. Evita sombras duras.</li>
-      <li><strong>Relación de aspecto uniforme</strong> – todas las imágenes deben ser 1:1 (cuadradas) o 4:3, con dimensiones mínimas de 800x800px.</li>
-      <li><strong>Optimización web</strong> – comprime las imágenes (herramientas como TinyPNG o Squoosh) para que pesen menos de 200KB, manteniendo calidad.</li>
-      <li><strong>Alternativa con IA (si no tienes fotos)</strong> – puedes generar imágenes estilo «caja de juego» con Midjourney o DALL·E, pero siempre añade un sello «imagen referencial» para evitar engaños.</li>
-      <li><strong>Para los juegos Spot It</strong> – actualmente usan una imagen genérica de cartas. Reemplázalas por las versiones específicas (cada variante tiene su propio arte).</li>
-    </ul>
-    <p style="margin-top:1rem; background:#fce4d6; padding:0.75rem; border-radius:12px;"><strong>🚀 Acción recomendada:</strong> Sustituye las URLs de las imágenes por tus propias fotos alojadas en un servicio rápido (Cloudinary, Imgur, o tu propio servidor). Mantén el diseño actual, solo cambia la propiedad <code>img</code> en el array <code>P</code>.</p>
-  </div>
-</details>
+<!-- ========== SECCIÓN CLUB AYNI GAMES ========== -->
+<div style="max-width:1360px; margin:2rem auto; padding:1.5rem 2rem; background:#fff3e0; border-radius:16px; border-left:6px solid var(--w); font-family:'Inter',sans-serif; text-align:center;">
+  <h3 style="font-size:1.5rem; font-weight:800; color:var(--w); margin:0 0 0.5rem 0;">🏆 Únete al Club Ayni Games</h3>
+  <p style="font-size:0.95rem; line-height:1.5; color:#2d2d2d; max-width:800px; margin:0 auto 1.5rem auto;">
+    Sé el primero en enterarte de nuestras nuevas importaciones de alta gama. Recibe ofertas flash, guías de estrategia y participa en sorteos exclusivos para nuestra comunidad en Bolivia.
+  </p>
+  <a href="https://chat.whatsapp.com/Bl0jfMIGc3B9VkzBzGU9pN?mode=gi_t" target="_blank" rel="noopener noreferrer" style="display:inline-block; background:#25D366; color:white; text-decoration:none; font-weight:bold; padding:0.75rem 2rem; border-radius:40px; font-size:1rem; transition:background 0.2s; box-shadow:0 2px 6px rgba(0,0,0,0.1);">📱 Entrar al Grupo de WhatsApp</a>
+</div>
 </body>
 </html>

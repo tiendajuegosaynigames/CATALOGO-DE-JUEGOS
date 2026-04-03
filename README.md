@@ -418,13 +418,16 @@ loadCartFromStorage();
 render();
 initSlider();
 </script>
-<!-- ========== SECCIÓN CLUB AYNI GAMES ========== -->
-<div style="max-width:1360px; margin:2rem auto; padding:1.5rem 2rem; background:#fff3e0; border-radius:16px; border-left:6px solid var(--w); font-family:'Inter',sans-serif; text-align:center;">
-  <h3 style="font-size:1.5rem; font-weight:800; color:var(--w); margin:0 0 0.5rem 0;">🏆 Únete al Club Ayni Games</h3>
-  <p style="font-size:0.95rem; line-height:1.5; color:#2d2d2d; max-width:800px; margin:0 auto 1.5rem auto;">
-    Sé el primero en enterarte de nuestras nuevas importaciones de alta gama. Recibe ofertas flash, guías de estrategia y participa en sorteos exclusivos para nuestra comunidad en Bolivia.
-  </p>
-  <a href="https://chat.whatsapp.com/Bl0jfMIGc3B9VkzBzGU9pN?mode=gi_t" target="_blank" rel="noopener noreferrer" style="display:inline-block; background:#25D366; color:white; text-decoration:none; font-weight:bold; padding:0.75rem 2rem; border-radius:40px; font-size:1rem; transition:background 0.2s; box-shadow:0 2px 6px rgba(0,0,0,0.1);">📱 Entrar al Grupo de WhatsApp</a>
-</div>
+
+<!-- ========== SECCIÓN CLUB AYNI GAMES (DESPLEGABLE) ========== -->
+<details style="max-width:1360px; margin:2rem auto; padding:1rem 2rem; background:#fff3e0; border-radius:16px; border-left:6px solid var(--w); font-family:'Inter',sans-serif;">
+  <summary style="font-weight:800; font-size:1rem; cursor:pointer; color:var(--w);">🏆 Únete al Club Ayni Games</summary>
+  <div style="margin-top:1rem; text-align:center;">
+    <p style="font-size:0.95rem; line-height:1.5; color:#2d2d2d; max-width:800px; margin:0 auto 1.2rem auto;">
+      Sé el primero en enterarte de nuestras nuevas importaciones de alta gama. Recibe ofertas flash, guías de estrategia y participa en sorteos exclusivos para nuestra comunidad en Bolivia.
+    </p>
+    <a href="https://chat.whatsapp.com/Bl0jfMIGc3B9VkzBzGU9pN?mode=gi_t" target="_blank" rel="noopener noreferrer" style="display:inline-block; background:#25D366; color:white; text-decoration:none; font-weight:bold; padding:0.7rem 1.8rem; border-radius:40px; font-size:0.9rem; transition:background 0.2s; box-shadow:0 2px 6px rgba(0,0,0,0.1);">📱 Entrar al Grupo de WhatsApp</a>
+  </div>
+</details>
 </body>
 </html>

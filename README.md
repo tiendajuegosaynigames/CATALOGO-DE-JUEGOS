@@ -1,13 +1,12 @@
 
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
-<meta charset="UTF-8"> content="width=device-width,initial-scale=1">
-<title>Aynigames — Catálogo Profesional de Juegos de Mesa</title>
-<meta name="description" content="Los mejores juegos de mesa en Bolivia. Cartas, tablero y estrategia. Envíos a todo el país.">
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,700;0,800;1,700&display=swap" rel="stylesheet">
-<style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aynigames — Catálogo Profesional de Juegos de Mesa</title>
+    <style>
+       
 /* ===== ESTILOS COMPLETOS (mismos que la versión profesional Aynigames) ===== */
 :root{--w:#7B1E2E;--wd:#4F1320;--wl:#9C2840;--g:#D4A843;--gl:#F0C96A;--bg:#F6F4F1;--card:#fff;--txt:#1C1C1E;--mid:#4A4A55;--soft:#8A8A9A;--brd:#E5E2DD;--r:16px;--rs:10px;--e:cubic-bezier(.4,0,.2,1)}
 *{margin:0;padding:0;box-sizing:border-box}html{scroll-behavior:smooth}

@@ -1,7 +1,9 @@
+
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
-<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta charset="UTF-8"> content="width=device-width,initial-scale=1">
 <title>Aynigames — Catálogo Profesional de Juegos de Mesa</title>
 <meta name="description" content="Los mejores juegos de mesa en Bolivia. Cartas, tablero y estrategia. Envíos a todo el país.">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,700;0,800;1,700&display=swap" rel="stylesheet">
